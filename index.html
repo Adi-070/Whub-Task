@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASS Assessment</title>
+
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="container" id="containerSection">
+        
+        <div class="instructions">
+            <h2>Instructions</h2><br/>
+            <div class="assessment">
+                <h3>ASSESSMENT</h3><br/>
+                <h1>DASS</h1><br/>
+                <p>The DASS is a 21 item self-report questionnaire aimed to measure the three related negative emotional states of depression, anxiety and stress. Please read each statement and mark a number 0, 1, 2 or 3 which indicates how much the statement applied to you over the past week. There are no right or wrong answers. Do not spend too much time on any statement.</p>
+                <div class="info">
+                    <div>
+                        <h4>Questions</h4>
+                        <p>10</p>
+                    </div>
+                    <div>
+                        <h4>Time to answer</h4>
+                        <p>7 - 10 min</p>
+                    </div>
+                </div>
+                <button id="startButton">Start</button>
+            </div>
+        </div>
+        <div class="main" id="mainSection">
+            <div class="progress-line">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            <div class="assessment-box" id="ass-box">
+                <!-- <div class="progress-line">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div> -->
+                <h1 id="questionTitle">DASS</h1>
+                <div id="questionContent">
+                    <p>Click "Let's do it!" to start answering questions.</p>
+                </div>
+                <button id="letsDoItButton">Let's do it!</button>
+                <br/>
+                <button id="previousQuestionButton">Previous Question</button>
+            </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
